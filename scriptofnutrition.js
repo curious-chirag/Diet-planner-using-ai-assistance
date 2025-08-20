@@ -34,7 +34,7 @@ The plan should include:
     const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
-        "Authorization": "Bearer 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", // Replace with your own if needed
+        "Authorization": "Bearer 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",
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": "Bearer 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", // Use your Groq key
+          "Authorization": "Bearer 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",
           "Content-Type": "application/json"
         },
         body: JSON.stringify({
@@ -136,3 +136,4 @@ document.addEventListener("DOMContentLoaded", () => {
     chatBox.scrollTop = chatBox.scrollHeight;
   }
 });
+
